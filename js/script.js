@@ -75,11 +75,11 @@ const sr = ScrollReveal({
     //reset: true
 })
 
-sr.reveal(`.home-header, .track-title`, { delay: 600, origin: 'left' });
-sr.reveal(`.home-footer`, { delay: 700, origin: 'left' });
-sr.reveal(`.home-img`, { delay: 900, origin: 'right' });
+sr.reveal(`.home-header, .track-title`, { delay: 600, origin: 'top' });
+sr.reveal(`.home-footer`, { delay: 700, origin: 'top' });
+sr.reveal(`.home-img`, { delay: 900, origin: 'bottom' });
 
-sr.reveal(`.song-name`, { origin: 'right', interval: 100 });
+sr.reveal(`.song-name`, { origin: 'bottom', interval: 100 });
 
 sr.reveal(`.specs-title, .specs-description, .specs-button`, { delay: 600, origin: 'bottom', interval: 100 });
 sr.reveal(`.specs-img`, { delay: 600, origin: 'top' });
