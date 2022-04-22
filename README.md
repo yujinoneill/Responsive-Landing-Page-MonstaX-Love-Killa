@@ -19,6 +19,7 @@
 ## Features from Me
 - Sticky & Rotated title
 - Media query
+- Open Graph meta information
 
 ## Reference
 - Logo, Favicon
